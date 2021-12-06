@@ -1,0 +1,668 @@
+/*=====================
+  automatizads PREMIUM DISPLAY
+======================*/
+
+/*TAMAÑO DE FUENTES*/
+.automatizads-font-18-500 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.automatizads-font-20 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.automatizads-font-25 {
+    font-size: 25px;
+}
+
+.automatizads-font-25-700 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.automatizads-font-35 {
+    font-size: 35px;
+}
+
+.automatizads-font-35-800{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.automatizads-font-40-800{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.automatizads-font-45-900 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.automatizads-font-50-900{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.automatizads-font-60-400 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.automatizads-font-80 {
+    font-size: 80px;
+}
+
+.automatizads-font-110{
+    font-size: 110px;
+}
+
+.automatizads-font-140{
+    font-size: 140px;
+}
+/*END TAMAÑO DE FUENTES*/
+
+
+
+/* BACKGROUND */
+.automatizads-vh-100{
+    height: 100vh;
+}
+
+.automatizads-banner-1{
+    background-color: #008CFF;
+}
+
+.automatizads-banner-1:first-of-type{
+    height: 7vh;
+}
+
+.automatizads-background-1{
+    background-image: url(../images/fondo-01_1.jpg);
+    background-size: cover;
+    height: 93vh;
+}
+
+.automatizads-background-2{
+    background-color: #00243A;
+}
+
+.automatizads-background-3{
+    background-color: #022E5F;
+}
+
+.automatizads-background-4{
+    background-color: #022E5F;
+}
+
+.automatizads-background-5{
+    background-color: #022e5f;
+}
+
+.automatizads-background-6{
+    background-color: #00243A;
+}
+
+.automatizads-background-7{
+    background-image: url(../images/fondo-02_1.jpg);
+    background-size: cover;
+}
+
+.automatizads-background-8{
+    background-color: #022E5F;
+}
+/* END BACKGROUND */
+
+
+
+/*COLORS*/
+.purple {
+    color: #008cff;
+}
+
+.yellow {
+    color: #ffce00;
+}
+
+.rose {
+    color: #ee1d52;
+}
+
+.moradooscuro {
+    color: #251f44;
+}
+
+.morado {
+    color: #008cff;
+}
+
+.rosado {
+    color: #fe91ca;
+}
+/*END COLORS*/
+
+
+
+/*FUENTES */
+.opensans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.neue {
+    font-family: 'Bebas Neue' !important;
+}
+/*END FUENTES*/
+
+.automatizads-blockquote-bonus{
+    background-color: #fff;
+    border: 5px solid #00243a;
+    border-radius: 15px;
+}
+
+.automatizads-blockquote-information {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border: 5px solid #251f44;
+/*    background-color: #f0f0f2;*/
+    
+}
+
+.automatizads-blockquote-information ul {
+    list-style: none;
+}
+
+.automatizads-blockquote-information li {
+    color: #616060;
+}
+
+.automatizads-blockquote-price {
+    border: 6px solid #251f44;
+    border-radius: 40px;
+    background-color: #ffffff;
+}
+
+.automatizads-metodos-de-pago {
+    width: 303px;
+}
+
+.automatizads-img-social-gruop {
+    width: 80px;
+}
+
+.automatizads-img-logos {
+    width: 210px;
+}
+
+.automatizads-img-empaque {
+    width: 610px;
+}
+
+.automatizads-img-button {
+    width: 340px;
+}
+
+.automatizads-icons-chat{
+    border-radius: 30px;
+    color: #0080f7!important;
+    background: white;
+}
+
+.automatizads-zoom-icono{
+    width:160px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+@media all and (max-width: 1600px) {
+    .automatizads-font-45-900 {
+        font-size: 30px;
+    }
+
+}
+
+@media all and (max-width: 1240px) {
+    .automatizads-banner-1:first-of-type{
+        height: inherit;
+    }
+
+    .automatizads-background-1{
+        height: inherit;
+    }
+
+    .automatizads-vh-100{
+        height: inherit;
+    }
+
+}
+
+
+@media all and (max-width: 768px) {
+
+    .automatizads-font-35-800 {
+        font-size: 25px;
+    }
+
+    .automatizads-font-40-800 {
+        font-size: 25px;
+    }
+}
+
+
+/* Tamaño de fuentes movil */
+@media all and (max-width: 580px) {
+
+    .automatizads-font-25 {
+        font-size: 22px;
+    }
+
+   .automatizads-font-25-700 {
+        font-size: 20px;
+    }
+
+    .automatizads-font-35 {
+        font-size: 20px;
+    }
+
+    .automatizads-font-35-800 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .automatizads-font-40-800 {
+        font-size: 25px;
+    }
+
+    .automatizads-font-45-900 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .automatizads-font-60-400 {
+        font-size: 35px;    
+        font-weight: 400;
+    }
+
+    .automatizads-font-140, .automatizads-font-110{
+    font-size: 90px;
+    }
+
+    .title-automatizads {
+        font-size: 20px;
+    }
+
+    /* otros */
+
+    .automatizads-img-button {
+        width: 250px;
+    }
+}
+
+/*=====================
+  END automatizads PREMIUM 
+======================*/
+
+/*=====================
+  COUNTDOWN DISPLAY
+======================*/
+
+.countdown {
+    /*  width: 720px;*/
+    margin: 0 auto;
+}
+.countdown .bloc-time {
+    float: left;
+    margin-right: 50px;
+
+    text-align: center;
+}
+.countdown .bloc-time:last-child {
+    margin-right: 0;
+}
+.countdown .count-title {
+    display: block;
+    margin-bottom: 15px;
+    font: normal 1.3em "Lato";
+    font-weight: bolder;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+.countdown .figure {
+    position: relative;
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    background-color: #de4848;
+    border-radius: 8px;
+    -moz-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+    -webkit-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+}
+.countdown .figure:last-child {
+    margin-right: 0;
+}
+.countdown .figure > span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font: normal 50px "Lato";
+    font-weight: 700;
+    color: #ffffff;
+}
+.countdown .figure .top:after,
+.countdown .figure .bottom-back:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.countdown .figure .top {
+    z-index: 3;
+    background-color: #de4848;
+    transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    -moz-transform: perspective(200px);
+    -ms-transform: perspective(200px);
+    -webkit-transform: perspective(200px);
+    transform: perspective(200px);
+}
+.countdown .figure .bottom {
+    z-index: 1;
+}
+.countdown .figure .bottom:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+.countdown .figure .bottom-back {
+    z-index: 2;
+    top: 0;
+    height: 50%;
+    overflow: hidden;
+    background-color: #de4848;
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.countdown .figure .bottom-back span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.countdown .figure .top,
+.countdown .figure .top-back {
+    height: 50%;
+    overflow: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.countdown .figure .top-back {
+    z-index: 4;
+    bottom: 0;
+    background-color: #de4848;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -moz-transform: perspective(200px) rotateX(180deg);
+    -ms-transform: perspective(200px) rotateX(180deg);
+    -webkit-transform: perspective(200px) rotateX(180deg);
+    transform: perspective(200px) rotateX(180deg);
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.countdown .figure .top-back span {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media all and (max-width: 1070px) {
+    .countdown .bloc-time {
+        margin-right: 20px;
+    }
+}
+
+@media all and (max-width: 580px) {
+    .countdown .figure > span {
+        font-size: 35px;
+    }
+
+    .countdown .figure {
+        height: 45px;
+        width: 45px;
+    }
+
+    .countdown .bloc-time {
+        margin-right: 20px;
+    }
+
+    .countdown .count-title {
+        font: normal 1em "Lato";
+        font-weight: bolder;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .countdown .bloc-time {
+        margin-right: 15px;
+    }
+
+    .countdown .figure {
+        margin-right: 6px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .countdown .figure {
+        height: 29px;
+        width: 29px;
+    }
+
+    .countdown .bloc-time {
+        margin-right: 10px;
+    }
+
+    .countdown .count-title {
+        font-size: 13px;
+    }
+
+    .countdown .figure {
+        margin-right: 4px;
+    }
+}
+
+/*=====================
+  END COUNTDOWN 
+======================*/
+
+/*=====================
+   CAROUSEL DISPLAY
+======================*/
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33.333%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+}
+/*=====================
+  END CAROUSEL 
+======================*/
+
+/*=====================
+  sOCIAL PROOF DISPLAY
+======================*/
+
+.fullscreen {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: rgb(256, 256, 256);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.rowmar {
+    margin-left: auto;
+    margin-right: auto;
+}
+.colpad {
+    padding: 10px;
+}
+
+.proof {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    min-width: 25vw;
+    border-radius: 20px;
+}
+
+.proof-text {
+    font-size: calc(0.9em + 0.1vw);
+}
+
+.proof-out {
+    display: none;
+    background-color: #7befef;
+}
+
+.proof-in {
+    display: block;
+}
+
+.social-proof-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+/*=====================
+  END sOCIAL PROOF 
+======================*/
+
+/*=====================
+  CIRCLE PROGRESS BAR
+======================*/
+.progressbar {
+    display: inline-block;
+    /*width: 100px;*/
+    /*margin: 25px;*/
+}
+.circle {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.circle:after {
+    width: 120px;
+    height: 120px;
+    content: "";
+    border: 0px solid #de4848;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.circle canvas {
+    vertical-align: middle;
+    border: 2px solid #de4848;
+    border-radius: 50%;
+}
+
+.circle div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 -86px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 31px;
+}
+.circle strong i {
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: normal;
+}
+.circle span {
+    display: block;
+    color: white;
+    margin-top: 12px;
+}
+/*=====================
+  END CIRCLE PROGRESS BAR  
+======================*/

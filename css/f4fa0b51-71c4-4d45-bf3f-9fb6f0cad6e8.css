@@ -1,0 +1,249 @@
+/*fuentes*/
+
+@font-face {
+  font-family: Gilroy;
+  src: url('../fonts/Gilroy-Light.woff');
+}
+
+.gilroy{
+    font-family:"Gilroy", sans-serif;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+/*fuentes*/
+
+.font-14{
+    font-size: 14px;
+}
+
+.font-16-100 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-18-500 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.font-18-800 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-22-500 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.font-22-800 {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.font-25 {
+    font-size: 25px;
+}
+
+.font-25-500 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.font-25-700 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+.font-35 {
+    font-size: 35px;
+}
+
+.font-35-600 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.font-35-800 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.font-40-800 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.font-45-800 {
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.font-45-900 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.font-50 {
+    font-size: 50px;
+}
+
+.font-50-800 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.font-60-400 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.font-70 {
+    font-size: 70px;
+}
+
+.font-80 {
+    font-size: 80px;
+}
+
+/*end fuentes*/
+
+.vertial-align {
+    display: flex;
+    align-items: center;
+}
+
+.vh-66 {
+    height: 66vh;
+}
+
+.purple {
+    color: #b671ff;
+}
+
+.cian {
+    color: #3ae3d0;
+}
+
+.yellow {
+    color: #ffce00;
+}
+
+.rose {
+    color: #ee1d52;
+}
+
+/*background home*/
+.home-bg {
+    height: 80vh;
+    background-image: url(../images/banner-principal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-bg-1 {
+    background-image: url(../images/fondo-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-bg-2 {
+    background-image: url(../images/fondo-3.jpg);
+}
+
+.home-bg-3 {
+    background-image: url(../images/fondo-4.jpg);
+}
+
+.descuento-2-parrafo {
+    font-family: "Bebas Neue";
+    color: #ffce00;
+    font-size: 50px;
+    /* margin-top: -20px;*/
+}
+
+/*imagenes home*/
+.curso-img {
+    width: 350px;
+}
+
+.here-img {
+    width: 160px;
+}
+
+.iconos-img {
+    width: 70px;
+}
+
+.redes-sociales {
+    font-size: 35px;
+}
+
+.redes-sociales a {
+    color: white;
+}
+
+/*btn home*/
+.btn-home-buy {
+    background: #9012e5;
+    color: white;
+    border-radius: 30px;
+    padding: 8px 25px;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+
+/* PASTELERIA VEGANA */
+
+.pasteleria-banner-1{
+        background-image: url(../images/pasteleria-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pasteleria-gray{
+    color:#444444;
+}
+
+.border-yellow{
+    border-left: 8px solid #ecb928;
+}
+
+.card-shadow{
+    background-color: #f9f9f9;
+    box-shadow: 10px 5px 5px #e6e6e6;
+}
+
+.pasteleria-yellow{
+    color: #ecb928;
+}
+
+.img-perfil-teacher{
+    width: 450px;
+}
+
+/*.pasteleria-gray2{*/
+/*    color:#222222;*/
+/*}*/
+
+/* END PASTELERIA VEGANA */
